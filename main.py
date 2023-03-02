@@ -3,7 +3,7 @@ import pyfirmata
 import time
 
 # Define the port and board
-port = '/dev/tty.usbmodem14201'  # replace with your board's port
+port = '/dev/tty.usbmodem101'  # replace with your board's port
 board = pyfirmata.Arduino(port)
 
 # Define the pin
